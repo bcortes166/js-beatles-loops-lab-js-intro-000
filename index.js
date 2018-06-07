@@ -12,11 +12,11 @@ var theBeatlesPlay = (musicians,instruments) => {
 
 var johnLennonFacts = facts => {
 
-  while (counter < facts.length) {
-  var counter = 0;
-    facts[counter] = `${facts[counter]}!!!`;
+  var i = 0;
+  while (i < facts.length) {
+    facts[i] = `${facts[i]}!!!`;
+    i++;
 
-  counter = counter + 1;
 }
-return facts;
+  return facts;
 }
