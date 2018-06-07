@@ -6,4 +6,5 @@ var theBeatlesPlay = (musicians,instruments) => {
 
     newArray.push(`${musicians[i]} plays ${instruments[i]}`)
   }
+  return newArray;
 }
