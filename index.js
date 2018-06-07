@@ -18,3 +18,13 @@ var johnLennonFacts = facts => {
 }
   return facts;
 }
+
+
+var iLoveTheBeatles = number => {
+
+    var array = []
+
+    do {
+      array = [...array, 'I love the Beatles!']
+    } while ()
+}
