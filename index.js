@@ -28,4 +28,5 @@ var iLoveTheBeatles = n => {
       array = [...array, 'I love the Beatles!']
       n++
     } while (n < 5)
+    return array
 }
