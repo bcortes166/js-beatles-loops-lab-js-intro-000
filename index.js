@@ -20,11 +20,12 @@ var johnLennonFacts = facts => {
 }
 
 
-var iLoveTheBeatles = number => {
+var iLoveTheBeatles = n => {
 
     var array = []
 
     do {
       array = [...array, 'I love the Beatles!']
-    } while ()
+      n++
+    } while (n < 5)
 }
