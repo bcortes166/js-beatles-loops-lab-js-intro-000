@@ -8,3 +8,13 @@ var theBeatlesPlay = (musicians,instruments) => {
   }
   return newArray;
 }
+
+
+var johnLennonFacts = facts => {
+
+  while (counter < facts.length)
+  var counter = 0
+    facts[counter] = `${facts[counter]}!!!`
+
+  counter = counter + 1
+}
