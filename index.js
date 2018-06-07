@@ -12,9 +12,11 @@ var theBeatlesPlay = (musicians,instruments) => {
 
 var johnLennonFacts = facts => {
 
-  while (counter < facts.length)
+  while (counter < facts.length) {
   var counter = 0
     facts[counter] = `${facts[counter]}!!!`
 
   counter = counter + 1
+}
+return facts
 }
